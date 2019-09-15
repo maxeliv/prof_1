@@ -1,0 +1,9 @@
+a=3.5;
+b=-0.7;
+i=2;
+x=0.8;
+y = pow2(10,4)*pow2(sin(i),2)-((0.32*pow2(x,3)+ 4*x+b)/cos(i*a))*pow2(0.32*pow2(x,3)-b,(1/6)) +abs(b);
+m = [a,b,i,x];
+d=sort(m,'descend');
+w =[d(1),d(3),d(4)];
+p=mean(w);
